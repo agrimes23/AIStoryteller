@@ -1,0 +1,49 @@
+// Variables
+// Just an example! Will decide on a theme and can change the variables
+$primary-color: #333;
+$secondary-color: #444;
+$text-color: white;
+
+.layout {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    min-height: 100vh;
+    background-color: $primary-color;
+
+    .container {
+        width: 500px;
+        padding: 10px 30px;
+        background-color: $secondary-color;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+        .text {
+            color: $text-color;
+            font-size: 24px;
+        }
+    }
+}
+
+// example of how nested styling works
+// this text class' styling will not apply unless the parent container is named "anotherContainer"
+.layout {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    min-height: 100vh;
+    background-color: #333;
+
+    .anotherContainer {
+        width: 200px;
+        padding: 5px 10px;
+        background-color: #444;
+        border-radius: 5px;
+
+        .text {
+            color: greenyellow;
+            font-size: 70px;
+        }
+    }
+}
