@@ -1,23 +1,18 @@
-# Use a lightweight Node.js image as the base
-FROM node:20-alpine AS production
-
-# Set the working directory inside the container
+# Stage 1: Base
+FROM node:20-alpine
 WORKDIR /src/app
-
-# Copy package.json and package-lock.json files
 COPY package*.json ./
+RUN npm install
 
-# Install production dependencies
-RUN npm install --production
+# Stage 2: Development
+# FROM base AS development
+# COPY . .
+# EXPOSE 3000
+CMD ["npm", "run", "dev"]
 
-# Copy the rest of the application code
-COPY . .
-
-# Build the Next.js application
-RUN npm run build
-
-# Expose port 3000 (assuming your Next.js app runs on this port)
-EXPOSE 3000
-
-# Command to run the application
-CMD ["npm", "start"]
+# # Stage 3: Production
+# FROM base AS production
+# COPY . .
+# RUN npm run build
+# EXPOSE 3000
+# CMD ["npm", "start"]
