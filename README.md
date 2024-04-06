@@ -1,4 +1,4 @@
-# AIStoryteller
+# StorytellerAI
 ![Image Alt Text](public/readme/Intro_StorytellerAI.PNG)
 
 Ever had an idea for a D&D campaign, but never got the campaign started because it is overwhelming and takes time to fully create all the lore for your world, backstories for NPCs, and good twists in your story?
