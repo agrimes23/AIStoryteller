@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./layout.module.scss";
 
 export default function Home() {
@@ -8,7 +7,7 @@ export default function Home() {
         <h1 className={styles.text}>yay it works</h1>
         <h2 className={styles.text}>nice work</h2>
         <p>well hi there</p>
-        <p>excuse meee</p>
+        <p>meee</p>
       </div>
     </main>
   );
