@@ -1,7 +1,6 @@
-import Image from "next/image";
-import styles from "./layout.module.scss";
+import styles from "../layout.module.scss";
 
-export default function Home() {
+const signup = () => {
   return (
     <main>
       <div className={styles.container}>
@@ -10,3 +9,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default signup
