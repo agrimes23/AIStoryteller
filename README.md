@@ -29,7 +29,7 @@ The browser should update whenever you make changes.
 
   Try running again with ```docker-compose up --build```
 
-- If you change the file structure, you may meed to kill the terminal and run it again.
+- If you change the file structure, you may meed to close the terminal and run it again.
 
 ## Roadmap:
 
