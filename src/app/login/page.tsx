@@ -5,7 +5,6 @@ const Login = () => {
     <main>
       <div className={styles.container}>
         <h1 className={styles.text}>login page</h1>
-        <button>hello button</button>
       </div>
     </main>
   );
