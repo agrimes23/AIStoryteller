@@ -11,12 +11,12 @@ Our team is creating a way to help the Dungeon Master (DM) receive aid from a ta
 
 ## Getting Started
 
-1. Run this code: ```npm install```  in the project directory
+1. Clone this project, run ```npm install``` in the project directory's terminal
 
 2. Install [Docker Desktop](https://docs.docker.com/get-docker/?_gl=1*628vpd*_ga*MTAzOTM5OTQ4Ni4xNzA5OTIwNTY5*_ga_XJWPQMJYHQ*MTcxMjkzOTY4Ny4xMy4xLjE3MTI5Mzk3MTEuMzYuMC4w).
-   Once Docker Desktop is fully installed, keep it open. You will need to have Docker Desktop open whenever you want to use docker, even in the command terminal.
+   Once Docker Desktop is fully installed, keep it open. You will need to have Docker Desktop open whenever you want to use docker, even when using it in the terminal.
 
-4. Run ```docker-compose up --build```
+4. Run ```docker-compose up --build``` in the project directory's terminal
 
 The browser should update whenever you make changes.
 
