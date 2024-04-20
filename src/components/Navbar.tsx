@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-// TODO: Navbar goes here
+// TODO: Navbar goes here, please edit this component and delete this comment once edited
 // TODO: needs also code to make into hamburger menu
 
 // if there are no props, then can delete interface
