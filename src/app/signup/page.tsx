@@ -1,5 +1,7 @@
 import styles from "../layout.module.scss";
 
+// TODO: edit this page. Please delete this comment when completed
+
 const signup = () => {
   return (
     <main>
